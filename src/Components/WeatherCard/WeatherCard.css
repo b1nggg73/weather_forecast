@@ -1,0 +1,38 @@
+.weather-card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  width: 355px;
+  height: 486px;
+  padding: 200px 52px 20px 52px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 260%;
+  text-align: left;
+  color: #fff;
+  box-shadow: 10px 9px 70px 0 rgba(36, 53, 62, 0.4);
+  background: #24353e;
+}
+.img-weather-card {
+  position: absolute;
+  top: 480px;
+}
+.info-about-city {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 162%;
+  text-align: center;
+  color: #fff;
+}
+.temperature {
+  display: inline;
+  font-weight: 300;
+}
+.distance {
+  display: inline;
+  font-weight: 300;
+}
+.time {
+  display: inline;
+  font-weight: 300;
+}

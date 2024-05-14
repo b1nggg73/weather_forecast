@@ -1,0 +1,4 @@
+.display-weather-card {
+  display: flex;
+  justify-content: space-evenly;
+}

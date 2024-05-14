@@ -1,0 +1,14 @@
+.drop-down-list {
+  display: block;
+  border-radius: 15px;
+  padding: 5px 15px;
+  max-width: 210px;
+  height: 75px;
+  background: rgba(31, 45, 52, 0.43);
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 283%;
+  text-align: left;
+  color: #fff;
+  border: 1px solid #58646a;
+}

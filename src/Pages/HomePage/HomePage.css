@@ -1,0 +1,31 @@
+.home {
+  margin-top: 27px;
+}
+
+.info-about-app {
+  width: 778px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.h3-info-about-app {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 162%;
+  color: #fff;
+}
+.h3-info-about-app-dark-weather {
+  display: inline-block;
+  font-weight: 700;
+  background: linear-gradient(127deg, #caecff 0%, #78cfff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.weather-filtering {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+  justify-content: space-around;
+}
