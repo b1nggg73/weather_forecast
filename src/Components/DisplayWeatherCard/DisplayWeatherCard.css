@@ -1,4 +1,20 @@
 .display-weather-card {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+}
+.btns {
+  width: 50px;
+  border-radius: 15px;
+  padding: 12px;
+  text-decoration: none;
+  background: #24353e;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.not-found-city {
+  color: #fff;
+  font-size: 60px;
+  margin: 150px 0px 150px 0px;
 }

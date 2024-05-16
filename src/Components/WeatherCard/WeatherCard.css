@@ -8,16 +8,17 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 260%;
-  text-align: left;
+  text-align: center;
   color: #fff;
   box-shadow: 10px 9px 70px 0 rgba(36, 53, 62, 0.4);
   background: #24353e;
 }
 .img-weather-card {
   position: absolute;
-  top: 480px;
+  top: 505px;
 }
 .info-about-city {
+  text-align: center;
   font-weight: 700;
   font-size: 40px;
   line-height: 162%;
@@ -26,13 +27,20 @@
 }
 .temperature {
   display: inline;
+  text-align: center;
   font-weight: 300;
+}
+.info-about-wind {
+  text-align: left;
+  width: 350px;
 }
 .distance {
   display: inline;
+  text-align: center;
   font-weight: 300;
 }
 .time {
   display: inline;
+  text-align: center;
   font-weight: 300;
 }

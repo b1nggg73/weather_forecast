@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import InputSearch from '../../Components/InputSearch/InputSearch';
 import Filters from '../../Components/Filters/Filters';
 import './HomePage.css';
 import DisplayWeatherCard from '../../Components/DisplayWeatherCard/DisplayWeatherCard';
 
 const HomePage = () => {
+  const [name, setName] = useState('minsk');
+  console.log(name);
   return (
     <div className="home">
       <div className="container">
@@ -15,10 +17,9 @@ const HomePage = () => {
           </h3>
         </div>
         <div className="weather-filtering">
-          <InputSearch />
-          <Filters />
+          <InputSearch setName={setName} />
         </div>
-        <DisplayWeatherCard />
+        <DisplayWeatherCard nameCity={name} />
       </div>
     </div>
   );
